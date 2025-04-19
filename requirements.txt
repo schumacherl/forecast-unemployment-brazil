@@ -1,0 +1,14 @@
+
+---
+
+## 📦 `requirements.txt` inicial
+
+```txt
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+statsmodels
+tensorflow
+jupyter
