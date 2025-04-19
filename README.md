@@ -1,25 +1,23 @@
-# Forecasting Unemployment in Brazil
+# Previsão da Taxa de Desemprego no Brasil
 
-This project aims to forecast Brazil's unemployment rate using time series models, including traditional statistical methods (like ARIMA) and deep learning techniques (such as LSTM neural networks). Inspired by real-world forecasting challenges and economic insights.
+Este projeto tem como objetivo prever a taxa de desemprego no Brasil utilizando técnicas de séries temporais e redes neurais, inspirado no artigo da Análise Macro.
 
-## Objectives
+## Estrutura do Projeto
 
-- Collect and clean monthly unemployment data
-- Perform exploratory data analysis (EDA)
-- Compare ARIMA and LSTM models
-- Evaluate model performance (MAE, RMSE, etc.)
-- Visualize forecasts vs. real values
+- `data/`: Contém os dados brutos e processados.
+- `notebooks/`: Notebooks Jupyter com análises exploratórias e modelagens.
+- `models/`: Modelos treinados e prontos para uso.
+- `src/`: Scripts utilizados no projeto.
+- `reports/`: Relatórios e visualizações dos resultados.
 
-## Folder Structure
+## Como Contribuir
 
-- `data/`: Raw and processed data
-- `notebooks/`: Jupyter notebooks with code and visualizations
-- `src/`: Python scripts for preprocessing and modeling
-- `reports/`: Generated plots and insights
+1. Faça um fork do repositório.
+2. Crie uma nova branch: `git checkout -b minha-contribuicao`.
+3. Faça suas alterações e commit: `git commit -m 'Minha contribuição'`.
+4. Envie para o GitHub: `git push origin minha-contribuicao`.
+5. Abra um Pull Request para revisão.
 
-## How to Run
+## Licença
 
-```bash
-git clone https://github.com/yourusername/forecast-unemployment-brazil.git
-cd forecast-unemployment-brazil
-pip install -r requirements.txt
+Este projeto está licenciado sob a MIT License.
